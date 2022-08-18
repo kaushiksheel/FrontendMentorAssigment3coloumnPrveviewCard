@@ -117,6 +117,8 @@ margin-bottom: 32px;
 .grid1{
     background-color: var(--BrightOrange);
     color: var(--BrightOrange);
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
 }
 .grid2{
     background-color: var(--DarkCyan);
@@ -125,6 +127,8 @@ margin-bottom: 32px;
 .grid3{
     background-color: var(--VeryDarkCyan);
     color: var(--VeryDarkCyan);
+        border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
 }
 
 .container>.grid{
@@ -138,5 +142,15 @@ padding: 3em;
     }
     .container{
         grid-template-columns: repeat(3,1fr);
+    }
+    .grid1{
+        border-radius: unset;
+        border-top-left-radius:8px;
+        border-bottom-left-radius:8px;
+    }
+    .grid3{
+        border-radius: unset;
+        border-top-right-radius:8px;
+        border-bottom-right-radius:8px;
     }
 }
