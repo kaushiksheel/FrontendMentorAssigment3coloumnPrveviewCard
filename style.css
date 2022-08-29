@@ -24,7 +24,7 @@
 body{
     font-size: 15px;
     overflow-x: hidden;
-    padding: 5em;
+    padding: 0em;
 }
 h3{
 font-family: 'Big Shoulders Display', cursive;
@@ -60,6 +60,8 @@ a:hover{
 .container{
     display: grid;
     grid-template-columns: 1fr;
+    width:90%;
+    margin:2rem auto;
 }
 
 .topIconSedan{
